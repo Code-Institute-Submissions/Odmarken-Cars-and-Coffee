@@ -193,5 +193,21 @@ h2 {
 }
 
 .coffee-overlay:hover {
-    transform: translate(-50%, -50%) scale(1.1); /* Zoom in by 10% */
+    transform: translate(-50%, -50%) scale(1.1); 
+}
+
+.coffee-overlay {
+    width: 20%; 
+}
+
+.coffee-overlay i.fa-solid.fa-mug-hot {
+    position: relative; 
+    top: 0; 
+    font-size: 50px;
+    order: -1; 
+}
+
+.coffee-overlay p {
+    margin: 6px 0;
+    font-size: 30px;
 }

@@ -96,3 +96,14 @@ body {
     font-size: 60px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
+
+.text-overlay {
+    background-color: #ff3030;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: none;
+    font-family: 'Pridi', sans-serif;
+    
+}

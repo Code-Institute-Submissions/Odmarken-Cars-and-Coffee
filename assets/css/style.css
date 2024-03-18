@@ -9,3 +9,18 @@ body {
 }
 
 /*--- NAVBAR ---*/
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#h1-home {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 4em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}

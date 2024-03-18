@@ -138,3 +138,13 @@ body {
     transition: transform 0.3 ease;
 
 }
+
+.event-box:hover {
+    transform: scale(1.1);
+
+}
+
+.event-box p {
+    margin: 0;
+    
+}

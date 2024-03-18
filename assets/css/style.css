@@ -330,3 +330,20 @@ h2 {
         height: auto; 
         margin: auto; 
     }
+
+    .text-overlay, .text-overlayhero {
+        width: 60%;
+        height: auto; 
+        margin: auto; 
+    }
+
+    #navbar a {
+        font-size: 1.2em; 
+        padding: 10px; 
+    }
+
+    .member-image img, .menu-image img {
+        width: 100%; 
+        height: auto; 
+    }
+}

@@ -211,3 +211,25 @@ h2 {
     margin: 6px 0;
     font-size: 30px;
 }
+
+
+/*------ MEMBER HMTL --------*/
+#main-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+
+.member-image {
+    text-align: center;
+    position: relative;
+}
+
+.member-image img {
+    width: 100%;
+    height: 70%;
+}

@@ -22,5 +22,23 @@ body {
     flex-grow: 1;
     font-size: 4em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    border-bottom: 6px solid black;
+
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-size: 1.5em;
+    transition: 'Pridi', sans-serif;
+
 }

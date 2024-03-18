@@ -316,3 +316,17 @@ h2 {
         font-size: 1em; 
         padding: 10px; 
     }
+
+    .member-image img, .menu-image img {
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .event-box, .coffee-overlay, .form-overlaymember {
+        width: 60%; 
+        padding: 20px;
+        height: auto; 
+        margin: auto; 
+    }

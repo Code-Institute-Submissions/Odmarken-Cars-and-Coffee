@@ -1,85 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cars & Coffee</title>
-        <link rel="stylesheet" href="assets/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <link rel="icon" type="Carfavicon" href="assets/images/facivon.png">
-    
-    </head>
-    <body>
-        
-   <!-- head -->
-   <header>
-    <h1 id="h1-home">Cars & Coffee</h1>
-    <i class="fa-solid fa-car" id="nav-icon"></i>
-    <nav id="navbar">
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="member.html">Member</a>
-    </nav>
 
-</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cars and coffee. Cars and fun, Coffee and Fun, Drive and Coffee">
+    <meta name="keywords" content="Cars and coffee, Stockholm drive, Norrtälje, Drive">
+    <title>Cars & Coffee</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="Carfavicon" href="assets/images/facivon.png">
 
-<main id="main-member">
-    <section id="signup">
-    <img src="assets/images/ferrari.jpg" alt="Car Meet" style="width: 100%; height: auto;">
-    <div class="form-overlaymember">
-        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-            <h2><i class="fa-solid fa-car-side"></i> Join the Drive</h2>
-            <label for="first_name">First Name</label>
-            <input type="text" name="first_name" id="first_name" class="text-input" required>
-            <br>
-            <label for="last_name">Last Name</label>
-            <input type="text" name="last_name" id="last_name" class="text-input" required>
-            <br>
-            <label for="email_address">Email Address</label>
-            <input type="email" name="email_address" id="email_address" class="text-input" required>
-            <br>
-            <button type="submit" class="join-button">DRIVE</button>
-        </form>
-    </div>
-    </section>
-</main>
+</head>
 
-    
-<!-- Footer -->
-<footer>
-    <ul id="social-networks">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-            aria-label="Visit our Facebook page (opens in a new tab)">
-            <i class="fa-brands fa-facebook"></i></a>
+<body>
 
-        <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-            aria-label="Visit our Twitter page (opens in a new tab)">
-            <i class="fa-brands fa-twitter-square"></i></a>
+    <!-- head -->
+    <header>
+        <h1 id="h1-home">Cars & Coffee</h1>
+        <i class="fa-solid fa-car" id="nav-icon"></i>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="member.html">Member</a>
+        </nav>
 
-        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-            aria-label="Visit our YouTube page (opens in a new tab)">
-            <i class="fa-brands fa-youtube-square"></i></a>
+    </header>
 
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-            aria-label="Visit our Instagram page (opens in a new tab)">
-            <i class="fa-brands fa-instagram"></i></a>
+    <main id="main-member">
+        <section id="signup">
+            <img src="assets/images/ferrari.jpg" alt="Car Meet" style="width: 100%; height: auto;">
+            <div class="form-overlaymember">
+                <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <h2><i class="fa-solid fa-car-side"></i> Join the Drive</h2>
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" class="text-input" required>
+                    <br>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" class="text-input" required>
+                    <br>
+                    <label for="email_address">Email Address</label>
+                    <input type="email" name="email_address" id="email_address" class="text-input" required>
+                    <br>
+                    <button type="submit" class="join-button">DRIVE</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
 
-</footer>
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)">
+                <i class="fa-brands fa-facebook"></i></a>
 
-<!-- Javascript code -->
-<script src="https://kit.fontawesome.com/0e9623133e.js" crossorigin="anonymous"></script>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)">
+                <i class="fa-brands fa-twitter-square"></i></a>
 
-<script>
-    document.getElementById('nav-icon').addEventListener('click', function () {
-        var navbar = document.getElementById('navbar');
-        if (navbar.style.display === 'none' || navbar.style.display === '') {
-            navbar.style.display = 'flex';
-        } else {
-            navbar.style.display = 'none';
-        }
-    });
-</script>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)">
+                <i class="fa-brands fa-youtube-square"></i></a>
+
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)">
+                <i class="fa-brands fa-instagram"></i></a>
+
+
+    </footer>
+
+    <!-- Javascript code -->
+    <script src="https://kit.fontawesome.com/0e9623133e.js" crossorigin="anonymous"></script>
+
+    <script>
+        document.getElementById('nav-icon').addEventListener('click', function () {
+            var navbar = document.getElementById('navbar');
+            if (navbar.style.display === 'none' || navbar.style.display === '') {
+                navbar.style.display = 'flex';
+            } else {
+                navbar.style.display = 'none';
+            }
+        });
+    </script>
 
 </body>
 

@@ -42,3 +42,31 @@ body {
     transition: 'Pridi', sans-serif;
 
 }
+
+#navbar a:hover {
+    transform: scale(1.2);
+
+}
+
+#nav-icon {
+    display: none;
+
+}
+
+@media screen and (max-width: 1200px) {
+    #nav-icon {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 36px;
+    }
+
+    #navbar {
+        display: none;
+    }
+}
+
+
+/*--- INDEX HTML ----*/
+

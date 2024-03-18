@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" type="Carfavicon" href="assets/images/facivon.png">
-    
+
 </head>
 
 
@@ -41,8 +42,69 @@
             <i class="fa-solid fa-location-dot"></i>
             <span>Norrtälje, Stockholm 761 30</span>
         </div>
-       
+
     </main>
-    
+    <!-- event days -->
+    <div class="event-container">
+        <div class="event-box">
+            <h3>Event 1</h3>
+            <p>Monday</p>
+            <p>21:00</p>
+        </div>
+        <div class="event-box">
+            <h3>Event 2</h3>
+            <p>Tuesday</p>
+            <p>21:00</p>
+        </div>
+        <div class="event-box">
+            <h3>Event 3</h3>
+            <p>Saturday</p>
+            <p>20:00</p>
+        </div>
+        <div class="event-box">
+            <h3>Event 4</h3>
+            <p>Sunday</p>
+            <p>20:00</p>
+        </div>
+    </div>
+    </section>
+
+<!-- Footer -->
+<footer>
+    <ul id="social-networks">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)">
+            <i class="fa-brands fa-facebook"></i></a>
+
+        <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)">
+            <i class="fa-brands fa-twitter-square"></i></a>
+
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)">
+            <i class="fa-brands fa-youtube-square"></i></a>
+
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)">
+            <i class="fa-brands fa-instagram"></i></a>
+
+
+</footer>
+
+<!-- Javascript code -->
+<script src="https://kit.fontawesome.com/0e9623133e.js" crossorigin="anonymous"></script>
+
+<script>
+    document.getElementById('nav-icon').addEventListener('click', function () {
+        var navbar = document.getElementById('navbar');
+        if (navbar.style.display === 'none' || navbar.style.display === '') {
+            navbar.style.display = 'flex';
+        } else {
+            navbar.style.display = 'none';
+        }
+    });
+</script>
+
 </body>
+
 </html>

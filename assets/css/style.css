@@ -271,3 +271,19 @@ h2 {
     color: white;
     cursor: pointer;
 }
+
+#signup-form .join-button:hover {
+    background-color: #ffffffd0;
+}
+
+/*------------FOOTER-----------------*/
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #ff3030;
+    margin-top: 30px;
+}
+

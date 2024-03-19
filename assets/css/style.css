@@ -294,3 +294,37 @@ h2 {
 }
 
 /*----- MEDIA SCREENS -------*/
+
+@media screen and (max-width: 768px) {
+    #h1-home {
+        font-size: 2em;
+    }
+
+    .event-box,
+    .coffee-overlay,
+    .form-overlaymember {
+        width: 90%;
+        padding: 20px;
+        height: auto;
+        margin: auto;
+    }
+
+    .text-overlay,
+    .text-overlayhero {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    #navbar a {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .member-image img,
+    .menu-image img {
+        width: 100%;
+        height: auto;
+    }
+}
+

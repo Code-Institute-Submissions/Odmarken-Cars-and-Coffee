@@ -228,21 +228,32 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     background-color: #ffffff;
     font-family: Arial, sans-serif;
+    background-image: url("../images/ferrari.jpg");
+    background-position: center; 
+    
+    background-size: cover; 
+    min-height: 1200px;
+    max-height: 2000px;
+    text-align: center;
+    position: relative;
 }
+
 
 .member-image {
     text-align: center;
     position: relative;
+   
 
 }
 
 .member-image img {
     width: 100%;
     height: 70%;
+    
 }
+
 
 .form-overlaymember {
     position: absolute;
@@ -285,6 +296,8 @@ h2 {
 #signup-form .join-button:hover {
     background-color: #ffffffd0;
 }
+
+
 
 /*------------FOOTER-----------------*/
 #social-networks {

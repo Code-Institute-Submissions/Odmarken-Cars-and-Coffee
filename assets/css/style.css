@@ -106,6 +106,7 @@ body {
     margin: 0 auto;
     text-shadow: none;
     font-family: 'Pridi', sans-serif;
+    
    
     
 }
@@ -174,6 +175,9 @@ h2 {
 .menu-image {
     text-align: center;
     position: relative;
+    background: url("../images/coffeemenu.jpg");
+    min-height: 800px;
+    max-height: 1000px;
 }
 
 .menu-image img {
@@ -309,7 +313,7 @@ h2 {
     .event-box,
     .coffee-overlay,
     .form-overlaymember {
-        width: 90%;
+        width: 70%;
         padding: 20px;
         height: auto;
         margin: auto;
@@ -317,7 +321,7 @@ h2 {
 
     .text-overlay,
     .text-overlayhero {
-        width: 90%;
+        width: 70%;
         height: auto;
         margin: auto;
     }
@@ -329,7 +333,7 @@ h2 {
 
     .member-image img,
     .menu-image img {
-        width: 100%;
+        width: 70%;
         height: auto;
     }
 }

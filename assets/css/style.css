@@ -317,32 +317,3 @@ h2 {
     }
 }
 
-@media screen and (max-width: 1200px) {
-
-    .event-box,
-    .coffee-overlay,
-    .form-overlaymember {
-        width: 60%;
-        padding: 20px;
-        height: auto;
-        margin: auto;
-    }
-
-    .text-overlay,
-    .text-overlayhero {
-        width: 60%;
-        height: auto;
-        margin: auto;
-    }
-
-    #navbar a {
-        font-size: 1.2em;
-        padding: 10px;
-    }
-
-    .member-image img,
-    .menu-image img {
-        width: 100%;
-        height: auto;
-    }
-}

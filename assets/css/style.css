@@ -167,6 +167,9 @@ h2 {
     height: 70%;
 }
 
+
+/*-------- COFFEE -------*/ 
+
 .coffee-overlay {
     position: absolute;
     top: 50%;
@@ -234,6 +237,8 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/*----- SIGN UP ----*/
 
 #signup-form {
     margin: auto;

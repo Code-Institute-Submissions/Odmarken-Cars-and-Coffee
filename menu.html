@@ -9,7 +9,7 @@
     <title>Cars & Coffee</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" type="Carfavicon" href="assets/images/facivon.png">
+    <link rel="icon" type="image/png" href="assets/images/facivon.png">
 
 </head>
 
@@ -27,7 +27,7 @@
     </header>
 
     <main>
-        <section>
+        <div>
             <div class="menu-image">
                 <img src="assets/images/Coffeemenu.jpg" alt="Menu" style="width: 100%; height: auto;">
                 <div class="coffee-overlay">
@@ -37,50 +37,48 @@
                     <p>Cappuccino - €3.50</p>
                     <p>Latte - €4.00</p>
 
-
                 </div>
             </div>
+        </div>
 
 
         </section>
     </main>
-        <!-- Footer -->
-        <footer>
-            <ul id="social-networks">
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook"></i></a>
-
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">
-                    <i class="fa-brands fa-twitter-square"></i></a>
-
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
-                    <i class="fa-brands fa-youtube-square"></i></a>
-
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a>
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i
+                        class="fa-brands fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i
+                        class="fa-brands fa-youtube-square"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+        </ul>
 
 
-        </footer>
 
-        <!-- Javascript code -->
-        <script src="https://kit.fontawesome.com/0e9623133e.js" crossorigin="anonymous"></script>
+    </footer>
 
-        <script>
-            document.getElementById('nav-icon').addEventListener('click', function () {
-                var navbar = document.getElementById('navbar');
-                if (navbar.style.display === 'none' || navbar.style.display === '') {
-                    navbar.style.display = 'flex';
-                } else {
-                    navbar.style.display = 'none';
-                }
-            });
-        </script>
+    <!-- Javascript code -->
+    <script src="https://kit.fontawesome.com/0e9623133e.js" crossorigin="anonymous"></script>
+
+    <script>
+        document.getElementById('nav-icon').addEventListener('click', function () {
+            var navbar = document.getElementById('navbar');
+            if (navbar.style.display === 'none' || navbar.style.display === '') {
+                navbar.style.display = 'flex';
+            } else {
+                navbar.style.display = 'none';
+            }
+        });
+    </script>
 
 </body>
 
 </html>
-

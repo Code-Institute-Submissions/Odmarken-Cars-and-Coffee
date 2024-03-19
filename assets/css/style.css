@@ -113,9 +113,7 @@ body {
     border-radius: 8px;
     padding: 15px;
     width: calc(40% - 40px);
-
     height: calc(40% - 40px);
-
     position: relative;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -131,7 +129,7 @@ body {
 
 .event-box p {
     margin: 0;
-   
+
 }
 
 .event-box p {
@@ -168,7 +166,7 @@ h2 {
 }
 
 
-/*-------- COFFEE -------*/ 
+/*-------- COFFEE -------*/
 
 .coffee-overlay {
     position: absolute;
@@ -180,7 +178,7 @@ h2 {
     padding: 60px;
     font-size: 80px;
     border: 5px solid black;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); 
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
     font-family: 'Pridi', sans-serif;
 }
@@ -218,7 +216,7 @@ h2 {
 .member-image {
     text-align: center;
     position: relative;
-    
+
 }
 
 .member-image img {

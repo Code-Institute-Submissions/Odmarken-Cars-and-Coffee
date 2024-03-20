@@ -10,7 +10,7 @@ The website is neatly divided into distinct sections, each dedicated to differen
 
 Enhancing the user experience further is a conveniently placed menu at the top of the page. This menu remains accessible as users scroll, allowing them to effortlessly navigate to various sections of the site at any point in their journey. This thoughtful design element ensures that users can smoothly and quickly transition between different parts of the page, enhancing their overall experience and engagement with the content. Through these user-centric design features, the "Cars and Coffee" page offers a welcoming and intuitive environment that encourages exploration and enjoyment for all who visit.
 
-##Header
+### Header
 
 -The navigation bar maintains a consistent design and placement across all pages, facilitating user navigation. It features a distinctive logo, links to the Home page, Menu for coffee and Member sections
 
@@ -19,10 +19,35 @@ Enhancing the user experience further is a conveniently placed menu at the top o
 -When viewed on smaller devices, the 'fa-car' icon will appear and is easy to click on
 
 
-## Navigation
+### Navigation
 
 -Everything is centered in the middle for easy navigation throughout the entire website
 
 -When viewed on smaller devices or tablets, a car icon will appear for a sleeker look, also matching the 'cars and coffee' theme.
 
 -The different pages are Home, Menu, and Member, which are simple and easy to navigate through, making it easier to understand and view.
+
+### Design
+
+- I choosed the Red,white and black color scheme to make it a little uniqe and poop but also suddle, white is the main color and black for text and borders, red is for all the panels/hovers
+-facivon is used for neat design and also fun, I choosed a little car for the matching theme
+
+### Technologies
+
+### Sections
+
+## Home
+
+## Menu
+
+## Member
+
+### Testing
+
+### Validators CSS/HTML
+
+### Bugs and known issues
+
+### Coding help
+
+### Credits

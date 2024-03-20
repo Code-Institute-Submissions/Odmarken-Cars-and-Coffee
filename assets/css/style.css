@@ -61,7 +61,7 @@ body {
         text-align: center;
         width: 100%;
         margin: 0 auto;
-        font-size: 36px;
+        font-size: 2rem;
     }
 
     #navbar {
@@ -245,8 +245,8 @@ h2 {
     background-position: center;
 
     background-size: cover;
-    min-height: 1200px;
-    max-height: 2000px;
+    min-height: 900px;
+    max-height: 1500px;
     text-align: center;
     position: relative;
 }
@@ -329,7 +329,7 @@ h2 {
 
 /*----- MEDIA SCREENS -------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 368px) and (max-width: 1200px) {
     #h1-home {
         font-size: 2em;
     }
@@ -337,7 +337,7 @@ h2 {
     .event-box,
     .coffee-overlay,
     .form-overlaymember {
-        width: 70%;
+        width: 40%;
         padding: 20px;
         height: auto;
         margin: auto;
@@ -345,7 +345,8 @@ h2 {
 
     .text-overlay,
     .text-overlayhero {
-        width: 70%;
+        width: 40%;
+        padding: 20px;
         height: auto;
         margin: auto;
     }
@@ -357,7 +358,8 @@ h2 {
 
     .member-image img,
     .menu-image img {
-        width: 70%;
+        width: 40%;
         height: auto;
     }
 }
+

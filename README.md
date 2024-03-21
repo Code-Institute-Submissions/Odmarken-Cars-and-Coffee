@@ -62,14 +62,28 @@ Enhancing the user experience further is a conveniently placed menu at the top o
 - I have rigorously tested the website on various browsers, including Firefox, Safari, Chrome, and Opera GX, and they all work flawlessly.
 - I've tested it on different devices such as phones, tablets, a MacBook Pro, Windows 11, and also an iMac.
 - Additionally, I have tested the website using Chrome's developer tools to ensure it functions correctly across all resolutions, including the iMac Pro's 5120 x 2880 resolution.
+![Performance](assets/images/readme/Performance.png)
 
 ## Validators CSS/HTML
 
-![Html] (assets/images/readme/html1.png)
-![CSS] (assets/images/readme/css.png)
+![Html](assets/images/readme/html1.png)
+![CSS](assets/images/readme/css.png)
 
 ## Bugs and known issues
 
+- I had a lot of problems initially with scaling my images, but the issue was that I hadn't set my images as the background. This has now been fixed, and the images scale better on various screens. My mentor, Brian, helped me resolve this and explained it very well.
+
 ## Coding help
 
+- I received a lot of help from the lovely community at CI Community-Sweden. The Slack group has been amazing when it comes to assistance. Every time I have been stuck, they have responded within minutes. We also have multiple huddles that helps a lot from experienced coders.
+- Youtube.
+- Google
+- Close friends
+
 ## Credits
+
+- Slack group community-sweden in CI slack group.
+- Brian my mentor.
+- Aaron Jack yotube (https://www.youtube.com/@AaronJack/videos)
+- The Thrive project (https://github.com/elainebroche-dev/ms1-thrive)
+- The Bonsai page fellow swede (https://github.com/mittnamnkenny/bonsai-page/tree/main)

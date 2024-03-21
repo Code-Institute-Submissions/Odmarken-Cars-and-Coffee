@@ -36,23 +36,37 @@ Enhancing the user experience further is a conveniently placed menu at the top o
 
 - HTML5
 - CSS3
-- [Google Fonts:](https://fonts.google.com/) font used is "Pridi"
-- [Font Awesome:](https://fontawesome.com/) is used on header and form sign up and also footer
+- [Google Fonts:](https://fonts.google.com/) font used is "Pridi".
+- [Font Awesome:](https://fontawesome.com/) is used on header and form sign up and also footer.
 
 
 ## Sections
 
 ### Home
 
-- The homepage is the first thing visitors will see when they come to the website, and it introduces them to a welcoming and friendly background showcasing one of our successful car shows.
+- The homepage is the first thing visitors see when they come to the website, and it introduces them to a welcoming and friendly background showcasing one of our successful car shows.
+- An event section is prominently displayed on the front page and also features a hover effect to make it stand out a bit more.
 
 ### Menu
 
+-  The menu page displays a variety of classic and well-known coffee types that are offered at the car event. 
+- Additionally, the menu features a nice hover effect to enhance its visual appeal.
+
 ### Member
+
+- The Member page is where you can sign up to become an active member, join the community, and receive daily updates about all the upcoming events.
+- The form in the member section is easy to navigate and understand, and it also includes a favicon to enhance the design.
 
 ## Testing
 
+- I have rigorously tested the website on various browsers, including Firefox, Safari, Chrome, and Opera GX, and they all work flawlessly.
+- I've tested it on different devices such as phones, tablets, a MacBook Pro, Windows 11, and also an iMac.
+- Additionally, I have tested the website using Chrome's developer tools to ensure it functions correctly across all resolutions, including the iMac Pro's 5120 x 2880 resolution.
+
 ## Validators CSS/HTML
+
+![Html] (assets/images/readme/html1.png)
+![CSS] (assets/images/readme/css.png)
 
 ## Bugs and known issues
 

@@ -337,7 +337,7 @@ h2 {
     .event-box,
     .coffee-overlay,
     .form-overlaymember {
-        width: 40%;
+        width: 70%;
         padding: 20px;
         height: auto;
         margin: auto;
@@ -345,7 +345,7 @@ h2 {
 
     .text-overlay,
     .text-overlayhero {
-        width: 40%;
+        width: 70%;
         padding: 20px;
         height: auto;
         margin: auto;
@@ -358,7 +358,7 @@ h2 {
 
     .member-image img,
     .menu-image img {
-        width: 40%;
+        width: 70%;
         height: auto;
     }
 }

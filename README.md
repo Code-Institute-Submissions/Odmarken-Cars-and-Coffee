@@ -27,10 +27,15 @@ Enhancing the user experience further is a conveniently placed menu at the top o
 
 - The different pages are Home, Menu, and Member, which are simple and easy to navigate through, making it easier to understand and view.
 
+- A neat footer at the bottom displays all the social media links.
+
+![Header]](assets/images/readme/header.png)
+![Footer](assets/images/readme/footer.png)
 ## Design
 
 - I chose the red, white, and black color scheme to make it unique and pop, yet also subtle. White is the main color, with black for text and borders, and red for all the panels and hovers.
 - A favicon is used for a neat design and added fun. I chose a small car to match the theme.
+![Color scheme](assets/images/readme/design.png)
 
 ## Technologies
 
@@ -51,11 +56,14 @@ Enhancing the user experience further is a conveniently placed menu at the top o
 
 -  The menu page displays a variety of classic and well-known coffee types that are offered at the car event. 
 - Additionally, the menu features a nice hover effect to enhance its visual appeal.
+![Menu](assets/images/readme/menupic.png)
 
 ### Member
 
 - The Member page is where you can sign up to become an active member, join the community, and receive daily updates about all the upcoming events.
 - The form in the member section is easy to navigate and understand, and it also includes a favicon to enhance the design.
+
+![Form](assets/images/readme/form.png)
 
 ## Testing
 

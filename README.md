@@ -83,7 +83,7 @@ Enhancing the user experience further is a conveniently placed menu at the top o
 
 ## Validators CSS/HTML
 
-![Html](assets/images/readme/htmlhtmlenglish.png)
+![Html](assets/images/readme/htmlenglish.png)
 ![CSS](assets/images/readme/cssenglish.png)
 
 ## Deployment

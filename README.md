@@ -79,12 +79,12 @@ Enhancing the user experience further is a conveniently placed menu at the top o
 - The form accurately validates fields that are marked as required, ensuring no essential information is omitted.
 - The form also checks the format of email addresses, confirming they adhere to the standard email structure.
 - All data entered into the form is successfully transmitted to the designated formdump for processing and storage.
-![Performance](assets/images/readme/Performance.png)
+![Performance](assets/images/readme/performanceenglish.png)
 
 ## Validators CSS/HTML
 
-![Html](assets/images/readme/html1.png)
-![CSS](assets/images/readme/css.png)
+![Html](assets/images/readme/htmlhtmlenglish.png)
+![CSS](assets/images/readme/cssenglish.png)
 
 ## Deployment
 

@@ -107,6 +107,7 @@ body {
 .text-overlay {
     background-color: #ff3030;
     width: 15%;
+    min-width: fit-content;
     padding: 10px;
     margin: 60px auto 0;
     text-align: center;
@@ -212,6 +213,7 @@ h2 {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
     font-family: 'Pridi', sans-serif;
+    min-width: fit-content;
 }
 
 .coffee-overlay:hover {

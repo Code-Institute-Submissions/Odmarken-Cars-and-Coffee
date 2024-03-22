@@ -33,6 +33,8 @@ Enhancing the user experience further is a conveniently placed menu at the top o
 
 
 ![Footer](assets/images/readme/footer.png)
+![Footer](assets/images/readme/caricon.png)
+
 ## Design
 
 - I chose the red, white, and black color scheme to make it unique and pop, yet also subtle. White is the main color, with black for text and borders, and red for all the panels and hovers.
@@ -72,12 +74,27 @@ Enhancing the user experience further is a conveniently placed menu at the top o
 - I have rigorously tested the website on various browsers, including Firefox, Safari, Chrome, and Opera GX, and they all work flawlessly.
 - I've tested it on different devices such as phones, tablets, a MacBook Pro, Windows 11, and also an iMac.
 - Additionally, I have tested the website using Chrome's developer tools to ensure it functions correctly across all resolutions, including the iMac Pro's 5120 x 2880 resolution.
+- Navigation elements are placed in their appropriate locations throughout the website.
+- Footer navigation elements are correctly positioned where they belong, and they open in a new browser tab.
+- The form accurately validates fields that are marked as required, ensuring no essential information is omitted.
+- The form also checks the format of email addresses, confirming they adhere to the standard email structure.
+- All data entered into the form is successfully transmitted to the designated formdump for processing and storage.
 ![Performance](assets/images/readme/Performance.png)
 
 ## Validators CSS/HTML
 
 ![Html](assets/images/readme/html1.png)
 ![CSS](assets/images/readme/css.png)
+
+## Deployment
+
+- In the GitHub repository, navigate to the Settings tab, choose Pages from the left hand menu 
+- From the source section drop-down menu, select the Master Branch once the master branch has been selected, the page will be automatically refreshed with a detailed display to indicate the successful deployment
+- Changes pushed to the master branch will take effect on the live project
+
+
+[Cars&coffee](https://github.com/Odmarken/Cars-and-Coffee/blob/main/index.html) 
+
 
 ## Bugs and known issues
 
